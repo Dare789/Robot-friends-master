@@ -25,7 +25,7 @@ useEffect(() => {
  fetch('https://jsonplaceholder.typicode.com/users')
    .then(response => response.json())
     .then (users => {dispatch(droid(users))});
-  }, []);
+  },);
 
   const onSearchChange = (event) => {
     dispatch(searchField(event.target.value))

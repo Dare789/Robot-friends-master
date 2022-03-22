@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { robots } from "../robots";
 
 export const droidSlice = createSlice({
     name:"droid",
